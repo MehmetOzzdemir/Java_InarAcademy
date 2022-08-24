@@ -12,11 +12,12 @@ public class MoneyAmount {
 		double moneyAmount = input.nextDouble();
 		int kurus = (int) (moneyAmount * 100);
 		int oneLiras = kurus / 100;
-		int lastKurus = kurus % 100;
-		int fiftyKurus = lastKurus / 50;
+		
 
 		System.out.println(moneyAmount + " Liras equalty " + (kurus + " Kurus"));
 		System.out.println(moneyAmount + " Liras equalty " + (oneLiras + "  adet 1 Liras"));
+		int lastKurus = kurus % 100;
+		int fiftyKurus = lastKurus / 50;
 		System.out.println(moneyAmount + " Liras equalty " + ((fiftyKurus)) + " adet 50 Kurus");
 		lastKurus = lastKurus % 50;
 		int twentyFiveKurus = lastKurus / 25;
