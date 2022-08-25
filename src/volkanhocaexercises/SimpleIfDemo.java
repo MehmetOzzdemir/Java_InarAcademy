@@ -13,7 +13,7 @@ public class SimpleIfDemo {
 
 		}
 		else {
-			System.out.println("Hi not even");
+			System.out.println("Hi Odd");
 		}
 	}
 }
