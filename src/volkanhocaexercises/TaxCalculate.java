@@ -15,7 +15,7 @@ public class TaxCalculate {
 			tax = gain*0.15;
 			System.out.print("Tax Rate %15 and Your Tax : "+(int)(tax*100)/100.0);
 			
-		}else if(gain<=70000 ) {
+		}else if(gain>32000 && gain<=70000 ) {
 			tax = (32000*0.15)+(gain-32000)*0.2;
 			System.out.print("Tax Rate %20 and Your Tax : "+(int)(tax*100)/100.0);
 			
