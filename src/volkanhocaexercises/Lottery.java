@@ -20,15 +20,15 @@ public class Lottery {
 
 		if (lottery == numbers) {
 			System.out.println("!!! WİN 10.000 TL !!!");
-		}else if (lotteryNumber1==number2 && lotteryNumber2 ==number1) {
+		} else if (lotteryNumber1 == number2 && lotteryNumber2 == number1) {
 			System.out.println("!!! WİN 3.000 TL !!!");
-		} 
-		else if (lotteryNumber1==number2 || lotteryNumber1==number1 || lotteryNumber2==number1 || lotteryNumber2==number2) {
+		} else if (lotteryNumber1 == number2 || lotteryNumber1 == number1 || lotteryNumber2 == number1
+				|| lotteryNumber2 == number2) {
 			System.out.println("!!! WİN 1.000 TL !!!");
 
-		}else
+		} else {
 			System.out.println("!!! LOST !!!");
-
+		}
 	}
 
 }
