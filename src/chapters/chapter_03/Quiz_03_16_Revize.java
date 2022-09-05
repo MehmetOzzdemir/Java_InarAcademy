@@ -3,8 +3,8 @@ package chapters.chapter_03;
 public class Quiz_03_16_Revize {
 
 	public static void main(String[] args) {
-		int number = (int) ((Math.random() * 4) + 1); //burası kenar tespit için
-		//System.out.println(number);
+		int number = (int) ((Math.random() * 4) + 1); // burası kenar tespit için
+		// System.out.println(number);
 		int height;
 		int width;
 		switch (number) {
