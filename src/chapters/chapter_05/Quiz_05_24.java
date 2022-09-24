@@ -10,6 +10,7 @@ public class Quiz_05_24 {
 			sum += i/j;
 		}
 		System.out.println(sum);
+		
 	}
 
 }
