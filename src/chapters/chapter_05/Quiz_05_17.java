@@ -11,13 +11,13 @@ public class Quiz_05_17 {
 		
 		for(int row=1;row<=line;row++) {
 			for (int space = (line-row); space >0; space--) {
-			System.out.print("-");
+			System.out.print("  ");
 		}
 			for (int numbers1=row;numbers1>0;numbers1--) {
-				System.out.print(numbers1);
+				System.out.print(" "+numbers1);
 			}
 			for (int numbers2=2;numbers2<=row;numbers2++) {
-				System.out.print(numbers2);
+				System.out.print(" "+numbers2);
 			}
 			System.out.println();
 		//System.out.println(row+" ");
