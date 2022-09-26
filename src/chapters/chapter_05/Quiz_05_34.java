@@ -14,7 +14,7 @@ public class Quiz_05_34 {
 			int count2 = 0;
 			for (int i = 0; i >= 0; i++) {
 				int number = (int) (Math.random() * 3);
-				System.out.print("scissor (0), rock (1), paper (2):");
+				System.out.print("Scissor (0), Rock (1), Paper (2):");
 				int myNumber = input.nextInt();
 				System.out.print("The computer is ");
 				Scissors(number);
