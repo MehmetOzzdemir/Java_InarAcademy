@@ -18,7 +18,7 @@ public class Quiz_05_30 {
 		for(int i=0;i<month;i++) {
 			
 			totalSaving=(totalSaving+saving)*(1+monthlyInterestRate);
-			System.out.printf(i+1+" . Month Saving Amount : "+ "$%.3f \n",totalSaving);
+			System.out.printf(i+1+" . Month Total Saving Amount : "+ "$%.3f \n",totalSaving);
 		}
 		System.out.printf("Amount in savings account after " +month + " months: $%.3f",totalSaving);
 	}
