@@ -2,21 +2,16 @@ package chapters.chapter_05;
 
 import java.util.Scanner;
 
-public class Quiz_05_39 {
+public class Quiz_05_42 {
 
 	public static void main(String[] args) {
-		Scanner input = new Scanner(System.in);
-		System.out.print("Enter Goal for The Annually Sales Earn : ");
-		double salesEarn = input.nextDouble();
-
-		double Salary;
-		double commission = 0;
-		double salesAmount = 0;
-
-		while (commission < salesEarn) {
+		final double COMMISSION_SOUGHT=30000;
+		double commission;
+		double salesAmount=0;
+		do {
 			salesAmount += 0.01;
 			commission = 0;
-			Salary = 0;
+			double Salary = 0;
 			if (salesAmount > 10000) {
 				commission += (Salary = salesAmount - 10000) * 0.12;
 			}
@@ -26,8 +21,9 @@ public class Quiz_05_39 {
 			if (salesAmount > 0) {
 				commission += Salary * 0.08;
 			}
-		}
-		System.out.print("Minimum sales to earn " + salesEarn + " : $" + (int) (salesAmount * 100) / 100.);
+		} while (commission < COMMISSION_SOUGHT);
+		
+		System.out.print("Minimum sales to earn " + COMMISSION_SOUGHT + " : $" + (int) (salesAmount * 100) / 100.);
 
 	}
 
